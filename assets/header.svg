@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="184" viewBox="0 0 960 184" fill="none">
+  <title>Barış Çelik</title>
+  <desc>Computer engineering, applied vision and web development. An original typographic header with a small geometric motif.</desc>
+  <rect width="960" height="184" rx="12" fill="#F3F4F0"/>
+  <path d="M40 38h25" stroke="#426B57" stroke-width="3"/>
+  <text x="40" y="95" fill="#202923" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="600" letter-spacing="-1.7">Barış Çelik</text>
+  <text x="42" y="130" fill="#58635B" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing=".3">Computer engineering · Applied vision · Web development</text>
+  <g stroke="#D4DCD2" stroke-width="1">
+    <path d="M742 40v104m40-104v104m40-104v104m40-104v104m-140-84h160m-160 32h160m-160 32h160"/>
+  </g>
+  <path d="m730 125 45-38 40 16 57-48" stroke="#64866F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#426B57" stroke="#F3F4F0" stroke-width="3">
+    <circle cx="730" cy="125" r="5"/><circle cx="775" cy="87" r="5"/><circle cx="815" cy="103" r="5"/><circle cx="872" cy="55" r="5"/>
+  </g>
+</svg>

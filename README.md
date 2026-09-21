@@ -1,57 +1,41 @@
-# Hey, I'm Barış 👋
+<p>
+  <img src="./assets/header.svg" alt="Barış Çelik — Computer engineering, applied vision and web development" width="100%" />
+</p>
 
-**Computer Vision · Machine Learning · Web Development**
+I'm **Nurullah Barış Çelik**, a Computer Engineering student at **Yıldız Technical University**. My projects combine computer vision with web applications: processing images and video, building the API, and making the results understandable.
 
-Computer Engineering student @ **Yıldız Technical University**.
+[Portfolio ↗](https://personal-website-eta-drab-26.vercel.app) &nbsp; / &nbsp; [Browse my code](https://github.com/bariscelikk1?tab=repositories)
 
-I build projects that turn images and movement into something useful—from model experiments to working web applications.
+## Two projects to start with
 
-[Portfolio](https://personal-website-eta-drab-26.vercel.app) · [Projects](https://github.com/bariscelikk1?tab=repositories)
+### 01 &nbsp; cALorie
+**A workout video, broken down into movements.**
 
----
+A web application for mixed-workout analysis: exercise segments, repetition counts, timed holds and estimated energy expenditure.
 
-## ⚡ What I work on
+The interesting part is handling uncertainty. MediaPipe supplies body landmarks; movement rules identify supported exercises. Rest and unrecognized periods stay separate instead of being forced into an exercise label. Calorie outputs are estimates, not measurements.
 
-`Computer Vision` `Pose Estimation` `Image Classification`  
-`Transfer Learning` `Video Analysis` `Full-Stack Development`
+<sub>Python · OpenCV · MediaPipe · FastAPI · Next.js · Supabase</sub>
 
----
+[Try the app](https://c-a-lorie.vercel.app) &nbsp; · &nbsp; [Code](https://github.com/bariscelikk1/cALorie) &nbsp; · &nbsp; [How it works](https://github.com/bariscelikk1/cALorie/blob/main/docs/how-calorie-works.md) &nbsp; · &nbsp; [Tests](https://github.com/bariscelikk1/cALorie/tree/main/worker/tests)
 
-## 🛠 Tech stack
+### 02 &nbsp; DermAI
+**Image classification, with attention to the data.**
 
-**Languages:** Python · TypeScript · JavaScript  
-**Vision & ML:** OpenCV · MediaPipe · TensorFlow / Keras  
-**Web & APIs:** React · Next.js · FastAPI  
-**Data & deployment:** Supabase · PostgreSQL · Vercel
+A seven-class dermoscopic image classifier using EfficientNetB0 transfer learning on HAM10000.
 
----
+The training pipeline splits data by lesion rather than individual image to reduce leakage between training and validation. It also handles class imbalance and separates classifier-head training from fine-tuning. This is a research prototype, not a diagnostic tool.
 
-## 🚀 Featured projects
+<sub>Python · TensorFlow / Keras · EfficientNetB0 · Transfer learning</sub>
 
-### [cALorie](https://github.com/bariscelikk1/cALorie) — Workout video analysis
+[Try the demo](https://dermai-steel.vercel.app) &nbsp; · &nbsp; [Code](https://github.com/bariscelikk1/dermai) &nbsp; · &nbsp; [Data pipeline](https://github.com/bariscelikk1/dermai/blob/main/src/dermai/data.py)
 
-> Python · MediaPipe · OpenCV · FastAPI · Next.js
+## Tools behind the work
 
-- Breaks mixed workout videos into supported exercises, rest and unknown periods.
-- Counts repetitions and times holds using pose tracking and movement rules.
-- Shows an interactive timeline and calorie estimates with quality notes.
-
-[Live demo ↗](https://c-a-lorie.vercel.app) · [Source code](https://github.com/bariscelikk1/cALorie)
-
-### [DermAI](https://github.com/bariscelikk1/dermai) — Skin lesion classification
-
-> Python · TensorFlow / Keras · EfficientNetB0 · HAM10000
-
-- Classifies dermoscopic images across seven lesion categories.
-- Uses transfer learning with a two-stage training pipeline.
-- Handles class imbalance and uses lesion-level train/validation splits.
-
-Research prototype—not a diagnostic tool.
-
-[Live demo ↗](https://dermai-steel.vercel.app) · [Source code](https://github.com/bariscelikk1/dermai)
+**Models & data** — Python, TensorFlow / Keras, OpenCV, MediaPipe  
+**Applications** — TypeScript, React, Next.js, FastAPI  
+**Storage & deployment** — PostgreSQL, Supabase, Vercel
 
 ---
 
-### Elsewhere
-
-[Personal website](https://personal-website-eta-drab-26.vercel.app) · [All repositories](https://github.com/bariscelikk1?tab=repositories)
+<sub>These are student projects. The repositories document their implementation and limitations.</sub>
