@@ -2,11 +2,7 @@
   <img src="./assets/header-minimal.svg" alt="Barış Çelik" width="100%" />
 </p>
 
-Hi, I'm **Barış**. I'm a third-year Computer Engineering student at **Yıldız Technical University**.
-
-I learn mostly by building projects and figuring things out as I go. Most of my recent work has been around computer vision and web development. I'm also starting to spend more time on statistics, optimization and quantitative finance.
-
-At the moment, I'm working on **Mihenk** with two friends for the Zemin360 Hackathon and continuing to improve **cALorie**.
+I'm **Barış**, a third-year Computer Engineering student at **Yıldız Technical University**.
 
 [Portfolio](https://personal-website-eta-drab-26.vercel.app) · [LinkedIn](https://linkedin.com/in/baris-celik) · [Repositories](https://github.com/bariscelikk1?tab=repositories)
 
