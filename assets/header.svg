@@ -1,15 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="184" viewBox="0 0 960 184" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220" fill="none">
   <title>Barış Çelik</title>
-  <desc>Computer engineering, applied vision and web development. An original typographic header with a small geometric motif.</desc>
-  <rect width="960" height="184" rx="12" fill="#F3F4F0"/>
-  <path d="M40 38h25" stroke="#426B57" stroke-width="3"/>
-  <text x="40" y="95" fill="#202923" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="600" letter-spacing="-1.7">Barış Çelik</text>
-  <text x="42" y="130" fill="#58635B" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing=".3">Computer engineering · Applied vision · Web development</text>
-  <g stroke="#D4DCD2" stroke-width="1">
-    <path d="M742 40v104m40-104v104m40-104v104m40-104v104m-140-84h160m-160 32h160m-160 32h160"/>
-  </g>
-  <path d="m730 125 45-38 40 16 57-48" stroke="#64866F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <g fill="#426B57" stroke="#F3F4F0" stroke-width="3">
-    <circle cx="730" cy="125" r="5"/><circle cx="775" cy="87" r="5"/><circle cx="815" cy="103" r="5"/><circle cx="872" cy="55" r="5"/>
+  <desc>A personal dark profile header with a notebook-style data sketch.</desc>
+
+  <rect width="960" height="220" rx="14" fill="#111714"/>
+  <rect x="1" y="1" width="958" height="218" rx="13" stroke="#2A342E"/>
+
+  <text x="42" y="44" fill="#7FA58D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.1">~/baris-celik</text>
+  <circle cx="42" cy="72" r="4" fill="#E8895B"/>
+  <path d="M55 72H83" stroke="#E8895B" stroke-width="2" stroke-linecap="round"/>
+
+  <text x="42" y="126" fill="#F3F0E8" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" letter-spacing="-2">Barış Çelik</text>
+  <text x="44" y="158" fill="#B5C0B9" font-family="Arial, Helvetica, sans-serif" font-size="16">I turn messy data into things people can actually use.</text>
+  <text x="44" y="188" fill="#718078" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">computer engineering  /  vision  /  optimization  /  quant-curious</text>
+
+  <g transform="translate(675 30)">
+    <text x="0" y="13" fill="#718078" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">notes_09_23</text>
+    <path d="M0 32H232M0 70H232M0 108H232M0 146H232" stroke="#26312B" stroke-width="1" stroke-dasharray="3 5"/>
+    <path d="M22 152V28M22 152H226" stroke="#56645C" stroke-width="1.2" stroke-linecap="round"/>
+
+    <path d="M32 137C63 124 76 128 102 103C126 80 146 88 171 60C187 43 202 38 221 30" stroke="#E8895B" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M31 133C62 118 83 116 105 96C131 72 153 71 176 51C192 37 207 30 223 23" stroke="#7FA58D" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 5" opacity=".8"/>
+
+    <g fill="#F3F0E8">
+      <circle cx="43" cy="126" r="3.5"/>
+      <circle cx="68" cy="119" r="3.5"/>
+      <circle cx="91" cy="111" r="3.5"/>
+      <circle cx="116" cy="88" r="3.5"/>
+      <circle cx="141" cy="92" r="3.5"/>
+      <circle cx="165" cy="67" r="3.5"/>
+      <circle cx="190" cy="53" r="3.5"/>
+      <circle cx="215" cy="35" r="3.5"/>
+    </g>
+
+    <text x="153" y="139" fill="#718078" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">learn → iterate</text>
+    <path d="M151 142c25 5 46 3 65-3" stroke="#718078" stroke-width="1" stroke-linecap="round"/>
+    <text x="2" y="174" fill="#E8895B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">signal &gt; noise</text>
   </g>
 </svg>
