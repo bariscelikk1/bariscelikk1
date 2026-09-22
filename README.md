@@ -1,5 +1,5 @@
 <p>
-  <img src="./assets/header.svg" alt="Barış Çelik" width="100%" />
+  <img src="./assets/header-minimal.svg" alt="Barış Çelik" width="100%" />
 </p>
 
 Hey, I'm **Barış** — a Computer Engineering student at **Yıldız Technical University**.
